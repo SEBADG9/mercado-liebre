@@ -4,7 +4,7 @@ app.use(express.static('public'));
 
 
 app.listen(3000, ()=>{
-    console.log('Servidor funcionando');
+    console.log('Servidor funcionando!');
 });
 
 app.get('/', (req,res)=>{
